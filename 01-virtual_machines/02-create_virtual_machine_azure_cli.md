@@ -2,7 +2,7 @@
 
 ## 01 Virtual Machines
 
-### Create Virtual Machine Azure CLI
+### 02 Create Virtual Machine Azure CLI
 
 **Linux**
 
