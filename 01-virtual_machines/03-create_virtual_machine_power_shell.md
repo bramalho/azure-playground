@@ -2,7 +2,7 @@
 
 ## 01 Virtual Machines
 
-### 02 Create Virtual Machine Power Shell
+### 03 Create Virtual Machine Power Shell
 
 **Linux**
 
