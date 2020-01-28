@@ -30,17 +30,22 @@ az vm list \
     --show-details \
     --output table
 
-# 8 Create custom image
+# 8 Mark VM as generalized
+az vm generalize \
+    --resource-group "demo-rg" \
+    --name "demo-vm-1"
+
+# 9 Create custom image
 az image create\
     --resource-group "demo-rg"
     --name "demo-ci"
     --source "demo-vm"
 
-# 9 Show image details
+# 10 Show image details
 az vm image \
     --output table
 
-# 10 Create VM
+# 11 Create VM
 az vm create \
     --resource-group "demo-rg" \
     --location "centralus" \
@@ -50,22 +55,22 @@ az vm create \
     --authentication-type "ssh" \
     --ssh-key-value ~/.ssh/id_rsa.pub
 
-# 11 Check status
+# 12 Check status
 az vm list \
     --show-details \
     --output table
 
-# 12 Try to start - will show an error that VM is generalized
+# 13 Try to start - will show an error that VM is generalized
 az vm start \
     --name "demo-vm" \
     --resource-group "demo-rg"
 
-# 11 Delete VM
+# 14 Delete VM
 az vm delete \
     --name "demo-vm" \
     --resource-group "demo-rg"
 
-# 12 List images
+# 15 List images
 az resource list \
     --resouce-type=Microsoft.Compute/images \
     --output table
