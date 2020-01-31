@@ -9,3 +9,4 @@
 - [05 Create Custom Linux Virtual Machine Image](05-create_custom_linux_virtaul_machine_image.md)
 - [06 Create Custom Windows Virtual Machine Image](06-create_custom_windows_virtaul_machine_image.md)
 - [07 Manage Custom Images](07-manage_custom_images.md)
+- [08 Manage Virtual Machine Disks](08-manage-virtual-machine-disks.md)
