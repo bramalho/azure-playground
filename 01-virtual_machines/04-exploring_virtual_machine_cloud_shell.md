@@ -1,8 +1,6 @@
-# Azure Playground
+# 01 Virtual Machines
 
-## 01 Virtual Machines
-
-### 04 Exploring Virtual Machine Cloud Shell
+## 04 Exploring Virtual Machine Cloud Shell
 
 ```powershell
 Get-AzureRmVM -ResourceGroupName "demo-rg" -Name "demo-vm-1" -Status

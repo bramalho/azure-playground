@@ -1,10 +1,8 @@
-# Azure Playground
+# 01 Virtual Machines
 
-## 01 Virtual Machines
+## 03 Create Virtual Machine Power Shell
 
-### 03 Create Virtual Machine Power Shell
-
-**Linux**
+### Linux
 
 ```powershell
 # 1 Get resource group
@@ -138,7 +136,7 @@ $ip
 ssh -l admin $ip
 ```
 
-**Windows**
+### Windowsw
 
 ```powershell
 # 9 Set computer name, OS and auth

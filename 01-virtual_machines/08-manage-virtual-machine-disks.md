@@ -1,10 +1,8 @@
-# Azure Playground
+# 01 Virtual Machines
 
-## 01 Virtual Machines
+## 08 Manage Virtual Machine Disks
 
-### 08 Manage Virtual Machine Disks
-
-**Creating and Attaching**
+### Creating and Attaching
 
 ```bash
 # 1 Attach a new disks
@@ -57,7 +55,7 @@ df -h
 exit
 ```
 
-**Resizing**
+### Resizing
 
 ```bash
 # 1 Stop and deallocate the VM
@@ -118,7 +116,7 @@ sudo vi /etc/fstab
 df -h | grep data1
 ```
 
-**Removing and Detaching**
+### Removing and Detaching
 
 ```bash
 # 1 Remove the UUID
@@ -145,7 +143,7 @@ az vm disk delete \
     --name "demo-disk-1"
 ```
 
-**Snapshots**
+### Snapshots
 
 ```bash
 # 1 List the disks

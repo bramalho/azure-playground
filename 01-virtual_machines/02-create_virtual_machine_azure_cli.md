@@ -1,10 +1,8 @@
-# Azure Playground
+# 01 Virtual Machines
 
-## 01 Virtual Machines
+## 02 Create Virtual Machine Azure CLI
 
-### 02 Create Virtual Machine Azure CLI
-
-**Linux**
+### Linux
 
 ```bash
 # 1 Install Azure CLI
@@ -79,7 +77,7 @@ az vm list-ip-addresses \
 ssh -l admin X.X.X.X
 ```
 
-**Windows**
+### Windows
 
 ```bash
 # 8 Create a virtual machine

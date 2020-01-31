@@ -1,8 +1,6 @@
-# Azure Playground
+# 01 Virtual Machines
 
-## 01 Virtual Machines
-
-### 05 Create Custom Linux Virtual Machine Image
+## 05 Create Custom Linux Virtual Machine Image
 
 ```bash
 # 1 Login and set subscription

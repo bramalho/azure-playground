@@ -1,8 +1,6 @@
-# Azure Playground
+# 01 Virtual Machines
 
-## 01 Virtual Machines
-
-### 01 Create Virtual Network
+## 01 Create Virtual Network
 
 1 - Set the Name
 
@@ -20,7 +18,7 @@ ie: `demo-subnet`
 
 ie: `10.0.1.0/24`
 
-### Create Windows Server 2016
+## Create Windows Server 2016
 
 1 - Set the Name
 
@@ -36,7 +34,7 @@ ie: `B1ms`
 
 ie: `RDP`
 
-### Create Linux VM
+## Create Linux VM
 
 1 - Set the Name
 

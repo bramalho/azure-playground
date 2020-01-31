@@ -1,8 +1,6 @@
-# Azure Playground
+# 01 Virtual Machines
 
-## 01 Virtual Machines
-
-### 06 Create Custom Windows Virtual Machine Image
+## 06 Create Custom Windows Virtual Machine Image
 
 ```powershell
 # 1 Connect to Azure

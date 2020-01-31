@@ -1,8 +1,6 @@
-# Azure Playground
+# 01 Virtual Machines
 
-## 01 Virtual Machines
-
-### 07 Manage Custom Images
+## 07 Manage Custom Images
 
 ```bash
 # 1 List images
