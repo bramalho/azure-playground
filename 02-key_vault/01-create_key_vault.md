@@ -14,7 +14,7 @@ New-AzureRmKeyVault `
 
 # 3 Convert a secret to a secure string
 $secretValue = ConvertTo-SecureString `
-    -String 'MySecret' `
+    -String '<MySecret>' `
     -AsPlainText `
     -Force
 
@@ -26,4 +26,10 @@ $secret = Set-AzureKeyVautlSecret `
 
 # 5 Print the secret ID
 $secret.Id
+
+# 6 Grant application permission
+Set-AzureRmKeyVaultAccessPolicy `
+    -VaultName 'demo-key-vault-1' `
+    -ServicePrincipalName '<MyApplicationID>' `
+    -PermissionsToSecrets Get
 ```
