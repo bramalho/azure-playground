@@ -1,4 +1,4 @@
-# 02 Key Vault
+# 02 Security
 
 ## 03 Configuring SSE
 
